@@ -429,25 +429,25 @@ export default {
               ]
             }
           ]
-        },
-        {
-          value: 'resource',
-          label: 'Resource',
-          children: [
-            {
-              value: 'axure',
-              label: 'Axure Components'
-            },
-            {
-              value: 'sketch',
-              label: 'Sketch Templates'
-            },
-            {
-              value: 'docs',
-              label: 'Design Documentation'
-            }
-          ]
         }
+        // {
+        //   value: 'resource',
+        //   label: 'Resource',
+        //   children: [
+        //     {
+        //       value: 'axure',
+        //       label: 'Axure Components'
+        //     },
+        //     {
+        //       value: 'sketch',
+        //       label: 'Sketch Templates'
+        //     },
+        //     {
+        //       value: 'docs',
+        //       label: 'Design Documentation'
+        //     }
+        //   ]
+        // }
       ],
       cascaderValue: [],
       switchValue: true,

@@ -292,7 +292,7 @@ Si Cmstop fue importado completamente, agregara los siguientes métodos globales
 Si prefieres importar `MessageBox` cuando lo necesites (on demand):
 
 ```javascript
-import { MessageBox } from 'element-ui';
+import { MessageBox } from 'cmstop-ui';
 ```
 
 Los métodos correspondientes: `MessageBox`, `MessageBox.alert`, `MessageBox.confirm` y `MessageBox.prompt`. Los parámetros son los mismos que los anteriores.

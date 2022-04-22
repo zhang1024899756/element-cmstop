@@ -16,8 +16,8 @@
 </template>
 
 <script type="text/babel">
-  import Emitter from 'element-ui/src/mixins/emitter';
-  import { getValueByPath, escapeRegexpString } from 'element-ui/src/utils/util';
+  import Emitter from 'cmstop-ui/src/mixins/emitter';
+  import { getValueByPath, escapeRegexpString } from 'cmstop-ui/src/utils/util';
 
   export default {
     mixins: [Emitter],

@@ -1,4 +1,4 @@
-export * from './element-ui'
+export * from './cmstop-ui'
 
-import * as CmstopUI from './element-ui'
+import * as CmstopUI from './cmstop-ui'
 export default CmstopUI

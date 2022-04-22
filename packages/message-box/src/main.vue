@@ -79,13 +79,13 @@
 </template>
 
 <script type="text/babel">
-  import Popup from 'element-ui/src/utils/popup';
-  import Locale from 'element-ui/src/mixins/locale';
-  import ElInput from 'element-ui/packages/input';
-  import ElButton from 'element-ui/packages/button';
-  import { addClass, removeClass } from 'element-ui/src/utils/dom';
-  import { t } from 'element-ui/src/locale';
-  import Dialog from 'element-ui/src/utils/aria-dialog';
+  import Popup from 'cmstop-ui/src/utils/popup';
+  import Locale from 'cmstop-ui/src/mixins/locale';
+  import ElInput from 'cmstop-ui/packages/input';
+  import ElButton from 'cmstop-ui/packages/button';
+  import { addClass, removeClass } from 'cmstop-ui/src/utils/dom';
+  import { t } from 'cmstop-ui/src/locale';
+  import Dialog from 'cmstop-ui/src/utils/aria-dialog';
 
   let messageBox;
   let typeMap = {

@@ -290,12 +290,7 @@
       </div>
     </div>
     <!-- <div class="jumbotron" ref="indexMainImg">
-      <img src="~examples/assets/images/theme-index-blue.png" alt="">
-      <div class="jumbotron-red" :style="{
-           height: mainImgOffset + 'px'
-         }">
-        <img src="~examples/assets/images/theme-index-red.png" alt="">
-      </div>
+     
     </div> -->
   </div>
 </template>

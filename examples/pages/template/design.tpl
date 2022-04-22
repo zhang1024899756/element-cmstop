@@ -1,4 +1,4 @@
-<style scoped>
+<style lang="scss" scoped>
   .cards {
     margin: 30px 0 70px;
   }

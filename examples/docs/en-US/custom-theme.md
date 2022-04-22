@@ -21,15 +21,15 @@ The above website enables you to preview theme of a new theme color in real-time
 $--color-primary: teal;
 
 /* icon font path, required */
-$--font-path: '~element-ui/lib/theme-chalk/fonts';
+$--font-path: '~cmstop-ui/lib/theme-chalk/fonts';
 
-@import "~element-ui/packages/theme-chalk/src/index";
+@import "~cmstop-ui/packages/theme-chalk/src/index";
 ```
 
 Then in the entry file of your project, import this style file instead of Cmstop's built CSS:
 ```JS
 import Vue from 'vue'
-import Cmstop from 'element-ui'
+import Cmstop from 'cmstop-ui'
 import './element-variables.scss'
 
 Vue.use(Cmstop)
@@ -107,7 +107,7 @@ Importing your own theme is just like importing the default theme, only this tim
 
 ```javascript
 import '../theme/index.css'
-import CmstopUI from 'element-ui'
+import CmstopUI from 'cmstop-ui'
 import Vue from 'vue'
 
 Vue.use(CmstopUI)
@@ -121,7 +121,7 @@ If you are using `babel-plugin-component` for on-demand import, just modify `.ba
     [
       "component",
       {
-        "libraryName": "element-ui",
+        "libraryName": "cmstop-ui",
         "styleLibraryName": "~theme"
       }
     ]

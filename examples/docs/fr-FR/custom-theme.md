@@ -21,15 +21,15 @@ Le site précédent vous permet de visualiser et de télécharger un nouveau th�
 $--color-primary: teal;
 
 /* chemin vers le fichier de police, requis */
-$--font-path: '~element-ui/lib/theme-chalk/fonts';
+$--font-path: '~cmstop-ui/lib/theme-chalk/fonts';
 
-@import "~element-ui/packages/theme-chalk/src/index";
+@import "~cmstop-ui/packages/theme-chalk/src/index";
 ```
 
 Puis dans le fichier d'entrée, importez ce style au lieu de celui d'Cmstop:
 ```JS
 import Vue from 'vue'
-import Cmstop from 'element-ui'
+import Cmstop from 'cmstop-ui'
 import './element-variables.scss'
 
 Vue.use(Cmstop)
@@ -109,7 +109,7 @@ Importing your own theme is just like importing the default theme, only this tim
 
 ```javascript
 import '../theme/index.css'
-import CmstopUI from 'element-ui'
+import CmstopUI from 'cmstop-ui'
 import Vue from 'vue'
 
 Vue.use(CmstopUI)
@@ -123,7 +123,7 @@ Si vous utilisez `babel-plugin-component` pour les imports sur demande, modifiez
     [
       "component",
       {
-        "libraryName": "element-ui",
+        "libraryName": "cmstop-ui",
         "styleLibraryName": "~theme"
       }
     ]

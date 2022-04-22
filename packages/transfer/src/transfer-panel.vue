@@ -52,10 +52,10 @@
 </template>
 
 <script>
-  import ElCheckboxGroup from 'element-ui/packages/checkbox-group';
-  import ElCheckbox from 'element-ui/packages/checkbox';
-  import ElInput from 'element-ui/packages/input';
-  import Locale from 'element-ui/src/mixins/locale';
+  import ElCheckboxGroup from 'cmstop-ui/packages/checkbox-group';
+  import ElCheckbox from 'cmstop-ui/packages/checkbox';
+  import ElInput from 'cmstop-ui/packages/input';
+  import Locale from 'cmstop-ui/src/mixins/locale';
 
   export default {
     mixins: [Locale],

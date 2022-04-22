@@ -24,10 +24,10 @@
   </span>
 </template>
 <script>
-import Popper from 'element-ui/src/utils/vue-popper';
-import { on, off } from 'element-ui/src/utils/dom';
-import { addClass, removeClass } from 'element-ui/src/utils/dom';
-import { generateId } from 'element-ui/src/utils/util';
+import Popper from 'cmstop-ui/src/utils/vue-popper';
+import { on, off } from 'cmstop-ui/src/utils/dom';
+import { addClass, removeClass } from 'cmstop-ui/src/utils/dom';
+import { generateId } from 'cmstop-ui/src/utils/util';
 
 export default {
   name: 'ElPopover',

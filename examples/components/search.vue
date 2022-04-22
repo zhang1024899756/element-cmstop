@@ -23,10 +23,10 @@
         v-if="props.item.img"
         target="_blank"
         href="https://www.algolia.com/docsearch">
-        <img
+        <!-- <img
           class="algolia-search-logo"
           src="../assets/images/search-by-algolia.svg"
-          alt="algolia-logo">
+          alt="algolia-logo"> -->
       </a>
       <p
         class="algolia-search-empty"

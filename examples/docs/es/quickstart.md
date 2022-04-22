@@ -22,8 +22,8 @@ En main.js:
 
 ```javascript
 import Vue from 'vue';
-import CmstopUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
+import CmstopUI from 'cmstop-ui';
+import 'cmstop-ui/lib/theme-chalk/index.css';
 import App from './App.vue';
 
 Vue.use(CmstopUI);
@@ -55,7 +55,7 @@ Luego edite .babelrc:
     [
       "component",
       {
-        "libraryName": "element-ui",
+        "libraryName": "cmstop-ui",
         "styleLibraryName": "theme-chalk"
       }
     ]
@@ -67,7 +67,7 @@ Luego, si necesita Button y Select, edite main.js:
 
 ```javascript
 import Vue from 'vue';
-import { Button, Select } from 'element-ui';
+import { Button, Select } from 'cmstop-ui';
 import App from './App.vue';
 
 Vue.component(Button.name, Button);
@@ -165,7 +165,7 @@ import {
   MessageBox,
   Message,
   Notification
-} from 'element-ui';
+} from 'cmstop-ui';
 
 Vue.use(Pagination);
 Vue.use(Dialog);
@@ -262,7 +262,7 @@ Importando Cmstop completamente：
 
 ```js
 import Vue from 'vue';
-import Cmstop from 'element-ui';
+import Cmstop from 'cmstop-ui';
 Vue.use(Cmstop, { size: 'small', zIndex: 3000 });
 ```
 
@@ -270,7 +270,7 @@ Importando Cmstop parcialmente：
 
 ```js
 import Vue from 'vue';
-import { Button } from 'element-ui';
+import { Button } from 'cmstop-ui';
 
 Vue.prototype.$ELEMENT = { size: 'small', zIndex: 3000 };
 Vue.use(Button);

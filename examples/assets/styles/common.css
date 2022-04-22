@@ -32,9 +32,9 @@ html, body {
       top: 0;
       z-index: 1500;
       
-      .container {
+      /* .container {
         padding: 0;
-      }
+      } */
     }
   }
 }
@@ -72,15 +72,14 @@ button, input, select, textarea {
 
 .main-cnt {
   margin-top: -80px;
-  padding: 80px 0 340px;
+  padding: 80px 0 140px;
   box-sizing: border-box;
   min-height: 100%;
 }
 
 .container,
 .page-container {
-  width: 1140px;
-  padding: 0;
+  padding: 0px 30px;
   margin: 0 auto;
 }
 

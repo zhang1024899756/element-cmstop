@@ -336,18 +336,6 @@
             </router-link>
           </div>
         </li>
-        <li>
-          <div class="card">
-            <img src="~examples/assets/images/resource.png" alt="">
-            <h3><%= 8 ></h3>
-            <p><%= 9 ></p>
-            <router-link
-              active-class="active"
-              to="/<%= lang >/resource"
-              exact><%= 5 >
-            </router-link>
-          </div>
-        </li>
       </ul>
     </div>
   </div>

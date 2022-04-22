@@ -19,20 +19,20 @@
   }
 
   .header {
-    height: 80px;
+    height: 64px;
     background-color: #fff;
     color: #fff;
     top: 0;
     left: 0;
     width: 100%;
-    line-height: 80px;
+    line-height: 64px;
     z-index: 100;
     position: relative;
 
     .container {
       height: 100%;
       box-sizing: border-box;
-      border-bottom: 1px solid #DCDFE6;
+      box-shadow: 0px 1px 6px rgba(32, 33, 36, 0.28);
     }
 
     .nav-lang-spe {
@@ -42,33 +42,15 @@
     h1 {
       margin: 0;
       float: left;
-      font-size: 32px;
+      font-size: 22px;
       font-weight: normal;
-
-      a {
-        color: #333;
-        text-decoration: none;
-        display: block;
-      }
-
-      span {
-        font-size: 12px;
-        display: inline-block;
-        width: 34px;
-        height: 18px;
-        border: 1px solid rgba(255, 255, 255, .5);
-        text-align: center;
-        line-height: 18px;
-        vertical-align: middle;
-        margin-left: 10px;
-        border-radius: 3px;
-      }
+      color: #1D2129;
     }
 
     .nav {
       float: right;
       height: 100%;
-      line-height: 80px;
+      line-height: 64px;
       background: transparent;
       padding: 0;
       margin: 0;
@@ -84,7 +66,7 @@
     .nav-gap {
       position: relative;
       width: 1px;
-      height: 80px;
+      height: 64px;
       padding: 0 20px;
 
       &::before {
@@ -144,12 +126,12 @@
 
       a {
         text-decoration: none;
-        color: #1989FA;
         opacity: 0.5;
         display: block;
         padding: 0 22px;
+        color: #000000;
 
-        &.active,
+         &.active,
         &:hover {
           opacity: 1;
         }
@@ -161,7 +143,7 @@
           bottom: 0;
           left: calc(50% - 15px);
           width: 30px;
-          height: 2px;
+          height: 4px;
           background: #409EFF;
         }
       }
@@ -282,7 +264,7 @@
 </style>
 <template>
   <div class="headerWrapper">
-    <div id="v3-banner" v-if="isHome">
+    <!-- <div id="v3-banner" v-if="isHome">
       <template v-if="lang === 'zh-CN'">
         您正在浏览基于 Vue 2.x 的 Element UI 文档;
         <a href="https://element-plus.org/#/zh-CN">点击这里</a> 查看 Vue 3.x 的升级版本
@@ -291,24 +273,10 @@
         You’re browsing the documentation of Element UI for Vue 2.x version.
         <a href="https://element-plus.org">Click here</a> for Vue 3.x version
       </template>
-    </div>
+    </div> -->
     <header class="header" ref="header">
       <div class="container">
-        <h1><router-link :to="`/${ lang }`">
-          <!-- logo -->
-          <slot>
-            <img
-              src="../assets/images/element-logo.svg"
-              alt="element-logo"
-              class="nav-logo">
-            <img
-              src="../assets/images/element-logo-small.svg"
-              alt="element-logo"
-              class="nav-logo-small">
-          </slot>
-
-        </router-link></h1>
-
+        <h1>CmsTop Design</h1>
         <!-- nav -->
         <ul class="nav">
           <li class="nav-item nav-algolia-search" v-show="isComponentPage">
@@ -326,21 +294,21 @@
               :to="`/${ lang }/component`">{{ langConfig.components }}
             </router-link>
           </li>
-          <li 
+          <!-- <li 
             class="nav-item nav-item-theme"
           >
             <router-link
               active-class="active"
               :to="`/${ lang }/theme`">{{ langConfig.theme }}
             </router-link>
-          </li>
-          <li class="nav-item">
+          </li> -->
+          <!-- <li class="nav-item">
             <router-link
               active-class="active"
               :to="`/${ lang }/resource`"
               exact>{{ langConfig.resource }}
             </router-link>
-          </li>
+          </li> -->
 
           <!-- gap -->
           <li class="nav-item" v-show="isComponentPage">

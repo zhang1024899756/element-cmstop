@@ -141,13 +141,6 @@ const generateMiscRoutes = function(lang) {
       }]
   };
 
-  let resourceRoute = {
-    path: `/${ lang }/resource`, // 资源
-    meta: { lang },
-    name: 'resource' + lang,
-    component: load(lang, 'resource')
-  };
-
   let indexRoute = {
     path: `/${ lang }`, // 首页
     meta: { lang },
@@ -155,7 +148,7 @@ const generateMiscRoutes = function(lang) {
     component: load(lang, 'index')
   };
 
-  return [guideRoute, resourceRoute, themeRoute, indexRoute];
+  return [guideRoute, themeRoute, indexRoute];
 };
 
 langs.forEach(lang => {

@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="container">
-      <div class="footer-main">
+      <!-- <div class="footer-main">
         <h4>{{ langConfig.links }}</h4>
         <a href="https://github.com/ElemeFE/element" class="footer-main-link" target="_blank">{{ langConfig.repo }}</a>
         <a href="https://github.com/ElemeFE/element/releases" class="footer-main-link" target="_blank">{{ langConfig.changelog }}</a>
@@ -10,18 +10,18 @@
         <a :href="'/#/' + lang + '/component/custom-theme'" class="footer-main-link" target="_blank">{{ langConfig.theme }}</a>
         <a href="https://github.com/elemefe/element-react" class="footer-main-link" target="_blank">Element-React</a>
         <a href="https://github.com/ElemeFE/element-angular" class="footer-main-link" target="_blank">Element-Angular</a>
-      </div>
-      <div class="footer-main">
+      </div> -->
+      <!-- <div class="footer-main">
         <h4>{{ langConfig.community }}</h4>
         <a :href="gitterLink" class="footer-main-link" target="_blank">{{ langConfig.gitter }}</a>
         <a href="https://github.com/ElemeFE/element/issues" class="footer-main-link" target="_blank">{{ langConfig.feedback }}</a>
         <a :href="`https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.${ lang }.md`" class="footer-main-link" target="_blank">{{ langConfig.contribution }}</a>
         <a href="https://segmentfault.com/t/element-ui" class="footer-main-link" target="_blank">SegmentFault</a>
         <a href="https://github.com/ElementUI/awesome-element" class="footer-main-link" target="_blank">Awesome Element</a>
-      </div>
+      </div> -->
       <div class="footer-social">
-        <p class="footer-social-title">Element {{ version && version.slice(0, 3) }} Fullerene</p>
-        <el-popover
+        <p class="footer-social-title">Design {{ version && version.slice(0, 3) }} Fullerene</p>
+        <!-- <el-popover
           ref="weixin"
           placement="top"
           width="120"
@@ -29,14 +29,14 @@
           trigger="hover">
           <div class="footer-popover-title">{{ langConfig.eleme }} UED</div>
           <img src="../assets/images/qrcode.png" alt="">
-        </el-popover>
-        <i class="doc-icon-weixin elementdoc" v-popover:weixin></i>
+        </el-popover> -->
+        <!-- <i class="doc-icon-weixin elementdoc" v-popover:weixin></i> -->
         <a href="https://github.com/elemefe" target="_blank">
           <i class="doc-icon-github elementdoc"></i>
         </a>
-        <a :href="gitterLink" target="_blank">
+        <!-- <a :href="gitterLink" target="_blank">
           <i class="doc-icon-gitter elementdoc"></i>
-        </a>
+        </a> -->
       </div>
     </div>
   </footer>
@@ -47,9 +47,9 @@
     background-color: #F7FBFD;
     width: 100%;
     padding: 40px 150px;
-    margin-top: -340px;
+    margin-top: -140px;
     box-sizing: border-box;
-    height: 340px;
+    height: 140px;
 
     .container {
       box-sizing: border-box;
@@ -83,8 +83,8 @@
     }
 
     .footer-social {
-      float: right;
-      text-align: right;
+      // float: right;
+      text-align: center;
 
       .footer-social-title {
         color: #666;

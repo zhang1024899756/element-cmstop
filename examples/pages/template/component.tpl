@@ -12,9 +12,9 @@
     box-sizing: border-box;
     height: 100%;
   
-    &.page-container {
-      padding: 0;
-    }
+    // &.page-container {
+    //   padding: 0;
+    // }
 
     .page-component__nav {
       width: 240px;

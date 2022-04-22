@@ -60,11 +60,11 @@
 </style>
 <template>
   <div class="page-container page-guide">
-    <el-row>
-      <el-col :xs="24" :sm="5">
+    <el-row type="flex" justify="center">
+      <!-- <el-col :xs="24" :sm="5">
         <side-nav :data="navsData" :base="`/${ lang }/guide`"></side-nav>
-      </el-col>
-      <el-col :xs="24" :sm="19">
+      </el-col> -->
+      <el-col :span="18">
         <router-view class="content"></router-view>
       </el-col>
     </el-row>

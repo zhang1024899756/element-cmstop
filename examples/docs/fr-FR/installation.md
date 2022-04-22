@@ -2,7 +2,7 @@
 
 ### NPM
 
-Installer Element via npm est recommandé, il fonctionne parfaitement avec [webpack](https://webpack.js.org/).
+Installer Cmstop via npm est recommandé, il fonctionne parfaitement avec [webpack](https://webpack.js.org/).
 
 ```shell
 npm i element-ui -S
@@ -20,15 +20,15 @@ Obtenez la dernière version via [unpkg.com/element-ui](https://unpkg.com/elemen
 ```
 
 :::tip
-Il est recommandé de fixer la version d'Element lors de l'utilisation du CDN. Référez-vous à  [unpkg.com](https://unpkg.com) pour plus d'informations.
+Il est recommandé de fixer la version d'Cmstop lors de l'utilisation du CDN. Référez-vous à  [unpkg.com](https://unpkg.com) pour plus d'informations.
 :::
 
 ### Hello world
 
-Si vous utilisez un CDN, une page hello-world peut être obtenue facilement avec Element ([démo en ligne](https://codepen.io/ziyoung/pen/rRKYpd)).
+Si vous utilisez un CDN, une page hello-world peut être obtenue facilement avec Cmstop ([démo en ligne](https://codepen.io/ziyoung/pen/rRKYpd)).
 
-<iframe height="265" style="width: 100%;" scrolling="no" title="Element demo" src="//codepen.io/ziyoung/embed/rRKYpd/?height=265&theme-id=light&default-tab=html" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/ziyoung/pen/rRKYpd/'>Element demo</a> by hetech
+<iframe height="265" style="width: 100%;" scrolling="no" title="Cmstop demo" src="//codepen.io/ziyoung/embed/rRKYpd/?height=265&theme-id=light&default-tab=html" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/ziyoung/pen/rRKYpd/'>Cmstop demo</a> by hetech
   (<a href='https://codepen.io/ziyoung'>@ziyoung</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 

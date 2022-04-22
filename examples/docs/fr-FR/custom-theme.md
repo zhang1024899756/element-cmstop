@@ -1,5 +1,5 @@
 ## Thème
-Element utilise le style BEM pour le CSS afin que vous puissiez écraser les règles prédéfinies facilement. Mais si vous avez besoin de remplacer des styles à une plus grande échelle , e.g. changer le thème de bleu à orange ou vert, les modifier une par une serait fastidieux. Nous fournissons ttrtois méthodes pour changer les variables de style.
+Cmstop utilise le style BEM pour le CSS afin que vous puissiez écraser les règles prédéfinies facilement. Mais si vous avez besoin de remplacer des styles à une plus grande échelle , e.g. changer le thème de bleu à orange ou vert, les modifier une par une serait fastidieux. Nous fournissons ttrtois méthodes pour changer les variables de style.
 
 ### Theme Roller
 Utilisez [Online Theme Roller](./#/fr-FR/theme) pour personnaliser les Design Tokens des variables globales et des composants, et prévisualisez le nouveau thème en temps réel. Il peut générer un package de style complet basé sur le nouveau thème que vous pouvez télécharger directement (pour importer de nouveaux fichiers de style dans votre projet, veuillez vous reporter à la partie 'Importer un thème personnalisé'' de cette section).
@@ -9,7 +9,7 @@ Also, use [Theme Roller Chrome Extension](https://chrome.google.com/webstore/det
 <img src="https://shadow.elemecdn.com/app/sns-client/element-theme-editor2.e16c6a01-806d-11e9-bc23-21435c54c509.png" style="width: 100%;margin: 30px auto 0;display: block;">
 
 ### Changer la couleur du thème
-Si vous avez juste besoin de changer la couleur du thème, le [générateur de thème en ligne](https://elementui.github.io/theme-chalk-preview/#/en-US) est recommandé. La couleur du thème d'Element est un bleu clair et agréable. En le changeant, vous rendez Element visuellement plus adapté à vos projets.
+Si vous avez juste besoin de changer la couleur du thème, le [générateur de thème en ligne](https://elementui.github.io/theme-chalk-preview/#/en-US) est recommandé. La couleur du thème d'Cmstop est un bleu clair et agréable. En le changeant, vous rendez Cmstop visuellement plus adapté à vos projets.
 
 Le site précédent vous permet de visualiser et de télécharger un nouveau thème immédiatement (pour importer un nouveau thème, référez-vous à la partie 'Importer un thème personnalisé' or 'Importer un thème de composant à la demande' de cette section).
 
@@ -26,13 +26,13 @@ $--font-path: '~element-ui/lib/theme-chalk/fonts';
 @import "~element-ui/packages/theme-chalk/src/index";
 ```
 
-Puis dans le fichier d'entrée, importez ce style au lieu de celui d'Element:
+Puis dans le fichier d'entrée, importez ce style au lieu de celui d'Cmstop:
 ```JS
 import Vue from 'vue'
-import Element from 'element-ui'
+import Cmstop from 'element-ui'
 import './element-variables.scss'
 
-Vue.use(Element)
+Vue.use(Cmstop)
 ```
 
 :::tip
@@ -54,7 +54,7 @@ Installer ensuite le thème chalk depuis npm ou GitHub.
 npm i element-theme-chalk -D
 
 # Via GitHub
-npm i https://github.com/ElementUI/theme-chalk -D
+npm i https://github.com/CmstopUI/theme-chalk -D
 ```
 
 #### <strong>Initialisation d'un fichier de variable</strong>
@@ -66,7 +66,7 @@ et -i [nom du fichier]
 > ✔ Generator variables file
 ```
 
-Dans `element-variables.scss` vous trouverez toutes les variables utilisées pour le style d'Element, définies en SCSS. Voici un snippet:
+Dans `element-variables.scss` vous trouverez toutes les variables utilisées pour le style d'Cmstop, définies en SCSS. Voici un snippet:
 
 ```css
 $--color-primary: #409EFF !default;
@@ -109,10 +109,10 @@ Importing your own theme is just like importing the default theme, only this tim
 
 ```javascript
 import '../theme/index.css'
-import ElementUI from 'element-ui'
+import CmstopUI from 'element-ui'
 import Vue from 'vue'
 
-Vue.use(ElementUI)
+Vue.use(CmstopUI)
 ```
 
 #### <strong>Importer le thème d'un composant sur demande</strong>
@@ -131,4 +131,4 @@ Si vous utilisez `babel-plugin-component` pour les imports sur demande, modifiez
 }
 ```
 
-Si vous n'êtes pas familier avec `babel-plugin-component`, référez-vous à la page <a href="./#/fr-FR/component/quickstart">Guide</a>. Pour plus d'informations, jetez un oeil au [dépôt du projet](https://github.com/ElementUI/element-theme) de `element-theme`.
+Si vous n'êtes pas familier avec `babel-plugin-component`, référez-vous à la page <a href="./#/fr-FR/component/quickstart">Guide</a>. Pour plus d'informations, jetez un oeil au [dépôt du projet](https://github.com/CmstopUI/element-theme) de `element-theme`.

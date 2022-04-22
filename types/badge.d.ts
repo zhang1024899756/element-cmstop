@@ -1,7 +1,7 @@
-import { ElementUIComponent } from './component'
+import { CmstopUIComponent } from './component'
 
 /** Badge Component */
-export declare class ElBadge extends ElementUIComponent {
+export declare class ElBadge extends CmstopUIComponent {
   /** Display value */
   value: string | number
 

@@ -1,4 +1,4 @@
-import { ElementUIComponent } from './component'
+import { CmstopUIComponent } from './component'
 
 /** Horizontal alignment of flex layout */
 export type HorizontalAlignment = 'start' | 'end' | 'center' | 'space-around' | 'space-between'
@@ -7,7 +7,7 @@ export type HorizontalAlignment = 'start' | 'end' | 'center' | 'space-around' | 
 export type VertialAlignment = 'top' | 'middle' | 'bottom'
 
 /** Row Layout Component */
-export declare class ElRow extends ElementUIComponent {
+export declare class ElRow extends CmstopUIComponent {
   /** Grid spacing */
   gutter: number
 

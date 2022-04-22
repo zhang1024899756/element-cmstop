@@ -1,19 +1,19 @@
-﻿# Guía para Contribuidores a `Element UI`
+﻿# Guía para Contribuidores a `Cmstop UI`
 
-¡Hola! Gracias por elegir [Element UI](http://element.eleme.io/#/en-US).
+¡Hola! Gracias por elegir [Cmstop UI](http://element.eleme.io/#/en-US).
 
-`Element UI` es un archivo de componentes para desarrolladores y para gerentes de productos ‘web’ basado en [Vue 2.0](https://vuejs.org/)
+`Cmstop UI` es un archivo de componentes para desarrolladores y para gerentes de productos ‘web’ basado en [Vue 2.0](https://vuejs.org/)
 
-Estamos orgullosos de que usted esta interesado en contribuir al proyecto `Element`. Antes de someter sus contribuciones, por favor tome un momentito para leer estas simples guías para contribuidores.
+Estamos orgullosos de que usted esta interesado en contribuir al proyecto `Cmstop`. Antes de someter sus contribuciones, por favor tome un momentito para leer estas simples guías para contribuidores.
 
 
 ## Guía Para Reportar Problemas (“Issues”)
 
-- [“Issues”]( https://elementui.github.io/issue-generator) son exclusivamente para informar de errores, sugerencias o solicitaciones para funcionalidad adicional referente a diseño. Preguntas de otro tipo corren el riesgo de ser cerradas inmediatamente. Sí tiene preguntas sobre el uso de `Element`, vea [Gitter](https://gitter.im/element-en/Lobby) para más ayuda.
+- [“Issues”]( https://elementui.github.io/issue-generator) son exclusivamente para informar de errores, sugerencias o solicitaciones para funcionalidad adicional referente a diseño. Preguntas de otro tipo corren el riesgo de ser cerradas inmediatamente. Sí tiene preguntas sobre el uso de `Cmstop`, vea [Gitter](https://gitter.im/element-en/Lobby) para más ayuda.
 
 - Antes de someter un informe sobre algún problema, sírvase de revisar  sí ya hubo un informe.
 
-- Por favor especifique que versión de `Element` y `Vue` que esta utilizando, y que versión de sistema operativo y que versión de navegador web que está utilizando. [JSFiddle](https://jsfiddle.net/) esta recomendado para crear un entorno para reproducir el problema claramente.
+- Por favor especifique que versión de `Cmstop` y `Vue` que esta utilizando, y que versión de sistema operativo y que versión de navegador web que está utilizando. [JSFiddle](https://jsfiddle.net/) esta recomendado para crear un entorno para reproducir el problema claramente.
 
 
 ## Guías para un “Pull Request (PR)”

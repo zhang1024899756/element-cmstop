@@ -84,7 +84,7 @@ aria.Utils.isFocusable = function(element) {
 /**
  * 触发一个事件
  * mouseenter, mouseleave, mouseover, keyup, change, click 等
- * @param  {Element} elm
+ * @param  {Cmstop} elm
  * @param  {String} name
  * @param  {*} opts
  */

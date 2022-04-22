@@ -1,7 +1,7 @@
-import { ElementUIComponent } from './component'
+import { CmstopUIComponent } from './component'
 
 /** Spinner Component */
-export declare class ElSpinner extends ElementUIComponent {
+export declare class ElSpinner extends CmstopUIComponent {
   /** The type of spinner */
   type: string
   	

@@ -6,7 +6,7 @@ Se muestra la animación mientras se cargan los datos.
 
 Muestra una animación en un contenedor (como en una tabla) mientras se cargan los datos.
 
-:::demo Element provee dos maneras para invocar el componente de Cargando: por directiva y por servicio. Para la directiva personalizada `v-loading`, solo necesitas enlazarlo a un valor `Boolean`. Por defecto, la máscara de carga se agregará al elemento donde se usa la directiva. Al agregar el modificador `body`, la máscara se agrega al elemento body.
+:::demo Cmstop provee dos maneras para invocar el componente de Cargando: por directiva y por servicio. Para la directiva personalizada `v-loading`, solo necesitas enlazarlo a un valor `Boolean`. Por defecto, la máscara de carga se agregará al elemento donde se usa la directiva. Al agregar el modificador `body`, la máscara se agrega al elemento body.
 
 ```html
 <template>
@@ -194,7 +194,7 @@ console.log(loadingInstance1 === loadingInstance2); // true
 ```
 Llamar al método `close` en cualquiera de estas puede cerrarlo.
 
-Si Element es importado completamente, un método global `$loading` puede ser registrado a Vue.prototype. Puede invocarlo como esto: `this.$loading(options)`, y también devuelve una instancia del componente.
+Si Cmstop es importado completamente, un método global `$loading` puede ser registrado a Vue.prototype. Puede invocarlo como esto: `this.$loading(options)`, y también devuelve una instancia del componente.
 
 ### Opciones
 | Atributo    | Descripción                              | Tipo          | Valores aceptados | Por defecto   |

@@ -1,7 +1,7 @@
-import { ElementUIComponent } from './component'
+import { CmstopUIComponent } from './component'
 
 /** Switch Component */
-export declare class ElSwitch extends ElementUIComponent {
+export declare class ElSwitch extends CmstopUIComponent {
   /** Whether Switch is on */
   value: boolean
 

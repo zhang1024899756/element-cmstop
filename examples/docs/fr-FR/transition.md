@@ -1,6 +1,6 @@
 ## Transitions
 
-Vous pouvez utiliser les transitions d'Element directement. Mais avant ça, merci de lire la [documentation](https://vuejs.org/v2/api/#transition).
+Vous pouvez utiliser les transitions d'Cmstop directement. Mais avant ça, merci de lire la [documentation](https://vuejs.org/v2/api/#transition).
 
 ### Fade
 

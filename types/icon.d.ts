@@ -1,7 +1,7 @@
-import { ElementUIComponent } from './component'
+import { CmstopUIComponent } from './component'
 
 /** Icon Component */
-export declare class ElIcon extends ElementUIComponent {
+export declare class ElIcon extends CmstopUIComponent {
   /** Icon name */
   name: string  
 }

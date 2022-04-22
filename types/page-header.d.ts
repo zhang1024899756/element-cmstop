@@ -1,7 +1,7 @@
-import { ElementUIComponent } from './component'
+import { CmstopUIComponent } from './component'
 
 /** PageHeader Component */
-export declare class ElPageHeader extends ElementUIComponent {
+export declare class ElPageHeader extends CmstopUIComponent {
   /** title */
   title: String
 

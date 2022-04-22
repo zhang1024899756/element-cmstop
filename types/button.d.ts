@@ -1,4 +1,4 @@
-import { ElementUIComponent, ElementUIComponentSize } from './component'
+import { CmstopUIComponent, CmstopUIComponentSize } from './component'
 
 /** Button type */
 export type ButtonType = 'primary' | 'success' | 'warning' | 'danger' | 'info' | 'text'
@@ -7,9 +7,9 @@ export type ButtonType = 'primary' | 'success' | 'warning' | 'danger' | 'info' |
 export type ButtonNativeType = 'button' | 'submit' | 'reset' | 'menu'
 
 /** Button Component */
-export declare class ElButton extends ElementUIComponent {
+export declare class ElButton extends CmstopUIComponent {
   /** Button size */
-  size: ElementUIComponentSize
+  size: CmstopUIComponentSize
 
   /** Button type */
   type: ButtonType
@@ -26,7 +26,7 @@ export declare class ElButton extends ElementUIComponent {
   /** Disable the button */
   disabled: boolean
 
-  /** Button icon, accepts an icon name of Element icon component */
+  /** Button icon, accepts an icon name of Cmstop icon component */
   icon: string
 
   /** Same as native button's autofocus */

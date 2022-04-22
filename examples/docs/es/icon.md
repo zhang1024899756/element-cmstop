@@ -1,6 +1,6 @@
 ## Icon
 
-Element proporciona un conjunto de iconos propios.
+Cmstop proporciona un conjunto de iconos propios.
 
 ### Uso básico
 

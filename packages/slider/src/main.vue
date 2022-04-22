@@ -45,13 +45,14 @@
         ref="button2"
         v-if="range">
       </slider-button>
-      <div
-        class="el-slider__stop"
-        v-for="(item, key) in stops"
-        :key="key"
-        :style="getStopStyle(item)"
-        v-if="showStops">
-      </div>
+      <template v-for="(item, key) in stops">
+        <div
+          class="el-slider__stop"
+          :key="key"
+          :style="getStopStyle(item)"
+          v-if="showStops">
+        </div>
+      </template>
       <template v-if="markList.length > 0">
         <div>
           <div
@@ -221,7 +222,7 @@
       },
       setValues() {
         if (this.min > this.max) {
-          console.error('[Element Error][Slider]min should not be greater than max.');
+          console.error('[Cmstop Error][Slider]min should not be greater than max.');
           return;
         }
         const val = this.value;
@@ -307,7 +308,7 @@
         if (!this.showStops || this.min > this.max) return [];
         if (this.step === 0) {
           process.env.NODE_ENV !== 'production' &&
-          console.warn('[Element Warn][Slider]step should not be 0.');
+          console.warn('[Cmstop Warn][Slider]step should not be 0.');
           return [];
         }
         const stopCount = (this.max - this.min) / this.step;

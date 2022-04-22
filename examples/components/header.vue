@@ -32,7 +32,8 @@
     .container {
       height: 100%;
       box-sizing: border-box;
-      box-shadow: 0px 1px 6px rgba(32, 33, 36, 0.28);
+      // box-shadow: 0px 2px 8px rgba(32, 33, 36, 0.10);
+      border-bottom: 1px solid rgb(229,230,235);
     }
 
     .nav-lang-spe {
@@ -264,16 +265,6 @@
 </style>
 <template>
   <div class="headerWrapper">
-    <!-- <div id="v3-banner" v-if="isHome">
-      <template v-if="lang === 'zh-CN'">
-        您正在浏览基于 Vue 2.x 的 Element UI 文档;
-        <a href="https://element-plus.org/#/zh-CN">点击这里</a> 查看 Vue 3.x 的升级版本
-      </template>
-      <template v-else>
-        You’re browsing the documentation of Element UI for Vue 2.x version.
-        <a href="https://element-plus.org">Click here</a> for Vue 3.x version
-      </template>
-    </div> -->
     <header class="header" ref="header">
       <div class="container">
         <h1>CmsTop Design</h1>
@@ -294,22 +285,6 @@
               :to="`/${ lang }/component`">{{ langConfig.components }}
             </router-link>
           </li>
-          <!-- <li 
-            class="nav-item nav-item-theme"
-          >
-            <router-link
-              active-class="active"
-              :to="`/${ lang }/theme`">{{ langConfig.theme }}
-            </router-link>
-          </li> -->
-          <!-- <li class="nav-item">
-            <router-link
-              active-class="active"
-              :to="`/${ lang }/resource`"
-              exact>{{ langConfig.resource }}
-            </router-link>
-          </li> -->
-
           <!-- gap -->
           <li class="nav-item" v-show="isComponentPage">
             <div class="nav-gap"></div>
@@ -371,12 +346,12 @@
   import ThemePicker from './theme-picker.vue';
   import AlgoliaSearch from './search.vue';
   import compoLang from '../i18n/component.json';
-  import Element from 'main/index.js';
+  import Cmstop from 'main/index.js';
   import themeLoader from './theme/loader';
   import bus from '../bus';
   import { ACTION_USER_CONFIG_UPDATE } from './theme/constant.js';
 
-  const { version } = Element;
+  const { version } = Cmstop;
 
   export default {
     data() {
@@ -419,18 +394,7 @@
         return /^home/.test(this.$route.name);
       }
     },
-    mounted() {
-      const testInnerImg = new Image();
-      testInnerImg.onload = () => {
-        this.$isEle = true;
-        ga('send', 'event', 'DocView', 'Ali', 'Inner');
-      };
-      testInnerImg.onerror = (err) => {
-        ga('send', 'event', 'DocView', 'Ali', 'Outer');
-        console.error(err);
-      };
-      testInnerImg.src = `https://private-alipayobjects.alipay.com/alipay-rmsdeploy-image/rmsportal/VmvVUItLdPNqKlNGuRHi.png?t=${Date.now()}`;
-    },
+    mounted() {},
     methods: {
       switchVersion(version) {
         if (version === this.version) return;

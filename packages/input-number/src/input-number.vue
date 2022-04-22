@@ -151,7 +151,7 @@
         const stepPrecision = getPrecision(step);
         if (precision !== undefined) {
           if (stepPrecision > precision) {
-            console.warn('[Element Warn][InputNumber]precision should not be less than the decimal places of step');
+            console.warn('[Cmstop Warn][InputNumber]precision should not be less than the decimal places of step');
           }
           return precision;
         } else {

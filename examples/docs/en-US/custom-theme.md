@@ -1,5 +1,5 @@
 ## Custom theme
-Element uses BEM-styled CSS so that you can override styles easily. But if you need to replace styles at a large scale, e.g. change the theme color from blue to orange or green, maybe overriding them one by one is not a good idea. We provide four ways to change the style variables.
+Cmstop uses BEM-styled CSS so that you can override styles easily. But if you need to replace styles at a large scale, e.g. change the theme color from blue to orange or green, maybe overriding them one by one is not a good idea. We provide four ways to change the style variables.
 
 ### Theme Roller
 Use [Online Theme Roller](./#/en-US/theme) to customize all Design Tokens of global variables and components，and preview the new theme in real-time.and it can generate a complete style package based on the new theme for you to download directly (to import new style files in your project, please refer to the 'Import custom theme' part of this section).
@@ -9,12 +9,12 @@ Also, use [Theme Roller Chrome Extension](https://chrome.google.com/webstore/det
 <img src="https://shadow.elemecdn.com/app/sns-client/element-theme-editor2.e16c6a01-806d-11e9-bc23-21435c54c509.png" style="width: 100%;margin: 30px auto 0;display: block;">
 
 ### Changing theme color
-If you just want to change the theme color of Element, the [theme preview website](https://elementui.github.io/theme-chalk-preview/#/en-US) is recommended. The theme color of Element is bright and friendly blue. By changing it, you can make Element more visually connected to specific projects.
+If you just want to change the theme color of Cmstop, the [theme preview website](https://elementui.github.io/theme-chalk-preview/#/en-US) is recommended. The theme color of Cmstop is bright and friendly blue. By changing it, you can make Cmstop more visually connected to specific projects.
 
 The above website enables you to preview theme of a new theme color in real-time, and it can generate a complete style package based on the new theme color for you to download directly (to import new style files in your project, please refer to the 'Import custom theme' or 'Import component theme on demand' part of this section).
 
 ### Update SCSS variables in your project
-`theme-chalk` is written in SCSS. If your project also uses SCSS, you can directly change Element style variables. Create a new style file, e.g. `element-variables.scss`:
+`theme-chalk` is written in SCSS. If your project also uses SCSS, you can directly change Cmstop style variables. Create a new style file, e.g. `element-variables.scss`:
 
 ```html
 /* theme color */
@@ -26,17 +26,17 @@ $--font-path: '~element-ui/lib/theme-chalk/fonts';
 @import "~element-ui/packages/theme-chalk/src/index";
 ```
 
-Then in the entry file of your project, import this style file instead of Element's built CSS:
+Then in the entry file of your project, import this style file instead of Cmstop's built CSS:
 ```JS
 import Vue from 'vue'
-import Element from 'element-ui'
+import Cmstop from 'element-ui'
 import './element-variables.scss'
 
-Vue.use(Element)
+Vue.use(Cmstop)
 ```
 
 :::tip
-Note that it is required to override icon font path to the relative path of Element's font files.
+Note that it is required to override icon font path to the relative path of Cmstop's font files.
 :::
 
 ### CLI theme tool
@@ -54,7 +54,7 @@ Then install the chalk theme from npm or GitHub.
 npm i element-theme-chalk -D
 
 # from GitHub
-npm i https://github.com/ElementUI/theme-chalk -D
+npm i https://github.com/CmstopUI/theme-chalk -D
 ```
 
 #### <strong>Initialize variable file</strong>
@@ -66,7 +66,7 @@ et -i [custom output file]
 > ✔ Generator variables file
 ```
 
-In `element-variables.scss` you can find all the variables we used to style Element and they are defined in SCSS format. Here's a snippet:
+In `element-variables.scss` you can find all the variables we used to style Cmstop and they are defined in SCSS format. Here's a snippet:
 ```css
 $--color-primary: #409EFF !default;
 $--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default; /* 53a8ff */
@@ -107,10 +107,10 @@ Importing your own theme is just like importing the default theme, only this tim
 
 ```javascript
 import '../theme/index.css'
-import ElementUI from 'element-ui'
+import CmstopUI from 'element-ui'
 import Vue from 'vue'
 
-Vue.use(ElementUI)
+Vue.use(CmstopUI)
 ```
 
 #### <strong>Import component theme on demand</strong>
@@ -129,4 +129,4 @@ If you are using `babel-plugin-component` for on-demand import, just modify `.ba
 }
 ```
 
-If you are unfamiliar with `babel-plugin-component`, please refer to <a href="./#/en-US/component/quickstart">Quick Start</a>. For more details, check out the [project repository](https://github.com/ElementUI/element-theme) of `element-theme`.
+If you are unfamiliar with `babel-plugin-component`, please refer to <a href="./#/en-US/component/quickstart">Quick Start</a>. For more details, check out the [project repository](https://github.com/CmstopUI/element-theme) of `element-theme`.

@@ -34,7 +34,7 @@ Pase el ratón por el menú desplegable para desplegarlo y obtener más acciones
 
 :::
 
-### Elemento detonante
+### Cmstopo detonante
 
 Utilizando un botón para activar la lista desplegable.
 

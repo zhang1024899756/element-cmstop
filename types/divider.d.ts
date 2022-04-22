@@ -1,9 +1,9 @@
-import { ElementUIComponent } from './component'
+import { CmstopUIComponent } from './component'
 
 export type ContentPosition = 'left' | 'center' | 'right'
 
 /** Divider Component */
-export declare class ElDivider extends ElementUIComponent {
+export declare class ElDivider extends CmstopUIComponent {
   /** enable vertical divider */
   vertical: boolean
 

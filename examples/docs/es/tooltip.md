@@ -171,7 +171,7 @@ De hecho, Tooltip es una extensión basada en [Vue-popper](https://github.com/el
 :::tip
 El componente `router-link` no es soportado por Tooltip, favor de usar `vm.$router.push`.
 
-Elementos de forma deshabilitados no son soportados por Tooltip, más información puede ser encontrada en [MDN](https://developer.mozilla.org/en-US/docs/Web/Events/mouseenter).
+Cmstopos de forma deshabilitados no son soportados por Tooltip, más información puede ser encontrada en [MDN](https://developer.mozilla.org/en-US/docs/Web/Events/mouseenter).
 Es necesario envolver los elementos de forma deshabilitados en un elemento contenedor para que Tooltip funcione.
 :::
 

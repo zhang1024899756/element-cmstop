@@ -279,7 +279,7 @@ le contenu de MessageBox peut être centré.
 
 ### Méthode globale
 
-Si Element est importé entièrement, il ajoutera les méthodes suivantes à Vue.prototype: `$msgbox`, `$alert`, `$confirm` et `$prompt`. Dans ce cas vous pouvez appeler `MessageBox` comme nous l'avons fait dans cette page. Les paramètres sont:
+Si Cmstop est importé entièrement, il ajoutera les méthodes suivantes à Vue.prototype: `$msgbox`, `$alert`, `$confirm` et `$prompt`. Dans ce cas vous pouvez appeler `MessageBox` comme nous l'avons fait dans cette page. Les paramètres sont:
 - `$msgbox(options)`
 - `$alert(message, title, options)` ou `$alert(message, options)`
 - `$confirm(message, title, options)` ou `$confirm(message, options)`

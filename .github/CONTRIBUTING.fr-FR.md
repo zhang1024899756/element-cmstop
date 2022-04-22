@@ -1,18 +1,18 @@
-# Guide à destination des contributeurs d'Element UI
+# Guide à destination des contributeurs d'Cmstop UI
 
-Bonjour! Merci d'avoir choisi Element UI.
+Bonjour! Merci d'avoir choisi Cmstop UI.
 
-Element UI est une bibliothèque de composants basée sur Vue 2.0 pour les développeurs, les designers et les chefs de produits.
+Cmstop UI est une bibliothèque de composants basée sur Vue 2.0 pour les développeurs, les designers et les chefs de produits.
 
 Nous sommes ravis que vous souhaitiez contribuer à Element. Avant de soumettre votre contribution, veuillez vous assurer de prendre un moment pour lire les indications suivantes.
 
 ## Concernant les issues
 
-- Les issues concernent exclusivement les bugs, les demandes de fonctionnalités et les sujets liés à la conception. Les questions concernant d'autres sujets peuvent être fermées directement. Si vous avez des questions à propos de l'utilisation d'Element, veuillez vous rendre sur [Gitter](https://gitter.im/element-en/Lobby) pour obtenir de l'aide.
+- Les issues concernent exclusivement les bugs, les demandes de fonctionnalités et les sujets liés à la conception. Les questions concernant d'autres sujets peuvent être fermées directement. Si vous avez des questions à propos de l'utilisation d'Cmstop, veuillez vous rendre sur [Gitter](https://gitter.im/element-en/Lobby) pour obtenir de l'aide.
 
 - Avant de soumettre une issue, veuillez vérifier si des problèmes similaires n'ont pas déjà été signalés.
 
-- Veuillez spécifier la version de `Element` et `Vue` que vous utilisez, et fournir des informations sur le système d'exploitation et le navigateur. [JSFiddle](https://jsfiddle.net/) est recommandé afin de construire une démo pour que votre problème puisse être reproduit clairement.
+- Veuillez spécifier la version de `Cmstop` et `Vue` que vous utilisez, et fournir des informations sur le système d'exploitation et le navigateur. [JSFiddle](https://jsfiddle.net/) est recommandé afin de construire une démo pour que votre problème puisse être reproduit clairement.
 
 ## Concernant les pull requests
 

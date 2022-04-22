@@ -1,6 +1,6 @@
-import { ElementUIComponent } from './component'
+import { CmstopUIComponent } from './component'
 
 /** Timeline Component */
-export declare class ElTimeline extends ElementUIComponent {
+export declare class ElTimeline extends CmstopUIComponent {
   reverse: boolean
 }

@@ -384,7 +384,7 @@ export default {
       checked: true,
       checked1: ['Shanghai'],
       checked2: true,
-      input: 'Element',
+      input: 'Cmstop',
       inputNumber: 1,
       selectOptions: [
         {

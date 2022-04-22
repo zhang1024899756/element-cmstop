@@ -22,8 +22,8 @@
 </style>
 
 <script>
-  import Element from 'main/index.js';
-  const { version } = Element;
+  import Cmstop from 'main/index.js';
+  const { version } = Cmstop;
 
   const ORIGINAL_THEME = '#409EFF';
   export default {

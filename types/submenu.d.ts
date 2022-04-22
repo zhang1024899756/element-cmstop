@@ -1,7 +1,7 @@
-import { ElementUIComponent } from './component'
+import { CmstopUIComponent } from './component'
 
 /** Submenu Component */
-export declare class ElSubmenu extends ElementUIComponent {
+export declare class ElSubmenu extends CmstopUIComponent {
   /** Unique identification */
   index: string | null
 

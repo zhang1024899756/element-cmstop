@@ -1,7 +1,7 @@
-import { ElementUIComponent } from './component'
+import { CmstopUIComponent } from './component'
 
 /** Tab Pane Component */
-export declare class ElTabPane extends ElementUIComponent {
+export declare class ElTabPane extends CmstopUIComponent {
   /** Title of the tab */
   label: string
 

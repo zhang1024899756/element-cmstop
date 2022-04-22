@@ -6,7 +6,7 @@ Utilisé pour avoir un retour après une action particulière. La différence av
 
 S'affiche en haut de la page et disparaît après trois secondes.
 
-:::demo L'utilisation de Message est très similaire à Notification, la plupart des options ne sont donc pas expliquées ici. Référez-vous à la table en fin de page et celle de Notification pour en savoir plus. Element affecte la méthode `$message` pour appeler Message. Il peut prendre en paramètre un string ou un VNode, qui sera affiché en tant que body principal.
+:::demo L'utilisation de Message est très similaire à Notification, la plupart des options ne sont donc pas expliquées ici. Référez-vous à la table en fin de page et celle de Notification pour en savoir plus. Cmstop affecte la méthode `$message` pour appeler Message. Il peut prendre en paramètre un string ou un VNode, qui sera affiché en tant que body principal.
 
 ```html
 <template>
@@ -188,7 +188,7 @@ Bien que la propriété `message` supporte le HTML, générer du contenu HTML dy
 
 ### Méthode globale
 
-Element ajoute une méthode `$message` à Vue.prototype. Vous pouvez donc appeler `Message` dans l'instance de Vue comme dans cette page.
+Cmstop ajoute une méthode `$message` à Vue.prototype. Vous pouvez donc appeler `Message` dans l'instance de Vue comme dans cette page.
 
 ### Import à la demande
 

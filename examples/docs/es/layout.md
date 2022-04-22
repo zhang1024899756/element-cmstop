@@ -312,7 +312,7 @@ Tomando el ejemplo de Bootstrap responsive design, existen 5 breakpoints: xs, sm
 
 ### Clases útiles para ocultar elementos
 
-Adicionalmente, Element provee una serie de clases para ocultar elementos dadas ciertas condiciones. Estas clases pueden se agregadas a cualquier elemento del DOM o un elemento propio. Necesita importar el siguiente archivo CSS para usar estas clases:
+Adicionalmente, Cmstop provee una serie de clases para ocultar elementos dadas ciertas condiciones. Estas clases pueden se agregadas a cualquier elemento del DOM o un elemento propio. Necesita importar el siguiente archivo CSS para usar estas clases:
 
 ```js
 import 'element-ui/lib/theme-chalk/display.css';

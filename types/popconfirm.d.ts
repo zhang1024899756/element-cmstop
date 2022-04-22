@@ -1,4 +1,4 @@
-import { ElementUIComponent } from './component'
+import { CmstopUIComponent } from './component'
 import { ElPopover } from './popover'
 
 /** Popconfirm Component */

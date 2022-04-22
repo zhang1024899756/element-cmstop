@@ -50,7 +50,7 @@ Dialog pops up a dialog box, and it's quite customizable.
 
 ### Customizations
 
-The content of Dialog can be anything, even a table or a form. This example shows how to use Element Table and Form with Dialog。
+The content of Dialog can be anything, even a table or a form. This example shows how to use Cmstop Table and Form with Dialog。
 
 :::demo
 

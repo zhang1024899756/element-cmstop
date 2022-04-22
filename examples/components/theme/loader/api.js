@@ -1,7 +1,7 @@
-import Element from 'main/index.js';
+import Cmstop from 'main/index.js';
 import { post, get } from './ajax';
 
-const { version } = Element;
+const { version } = Cmstop;
 
 const hostList = {
   local: 'http://localhost:3008/',

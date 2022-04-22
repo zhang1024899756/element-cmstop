@@ -38,9 +38,9 @@
 
 > A Vue.js 2.0 UI Toolkit for Web.
 
-Element will stay with Vue 2.x 
+Cmstop will stay with Vue 2.x 
 
-For Vue 3.0, we recommend using [Element Plus](https://github.com/element-plus/element-plus) from the same team
+For Vue 3.0, we recommend using [Cmstop Plus](https://github.com/element-plus/element-plus) from the same team
 
 ## Links
 - Homepage and documentation
@@ -48,19 +48,19 @@ For Vue 3.0, we recommend using [Element Plus](https://github.com/element-plus/e
   - [Chinese users](http://element-cn.eleme.io/#/zh-CN)
   - [Spanish users](http://element.eleme.io/#/es)
   - [French users](http://element.eleme.io/#/fr-FR)
-- [awesome-element](https://github.com/ElementUI/awesome-element)
+- [awesome-element](https://github.com/CmstopUI/awesome-element)
 - [FAQ](./FAQ.md)
 - [Vue.js 3.0 migration](https://github.com/element-plus/element-plus)
 - [Customize theme](http://element.eleme.io/#/en-US/component/custom-theme)
 - [Preview and generate theme online](https://elementui.github.io/theme-chalk-preview)
-- [Element for React](https://github.com/elemefe/element-react)
-- [Element for Angular](https://github.com/ElemeFE/element-angular)
+- [Cmstop for React](https://github.com/elemefe/element-react)
+- [Cmstop for Angular](https://github.com/ElemeFE/element-angular)
 - [Atom helper](https://github.com/ElemeFE/element-helper)
 - [Visual Studio Code helper](https://github.com/ElemeFE/vscode-element-helper)
 - Starter kit
-  - [element-starter](https://github.com/ElementUI/element-starter)
-  - [element-in-laravel-starter](https://github.com/ElementUI/element-in-laravel-starter)
-- [Design resources](https://github.com/ElementUI/Resources)
+  - [element-starter](https://github.com/CmstopUI/element-starter)
+  - [element-in-laravel-starter](https://github.com/CmstopUI/element-in-laravel-starter)
+- [Design resources](https://github.com/CmstopUI/Resources)
 - Gitter
   - [International users](https://gitter.im/element-en/Lobby)
   - [Chinese users](https://gitter.im/ElemeFE/element)
@@ -73,9 +73,9 @@ npm install element-ui -S
 ## Quick Start
 ``` javascript
 import Vue from 'vue'
-import Element from 'element-ui'
+import Cmstop from 'element-ui'
 
-Vue.use(Element)
+Vue.use(Cmstop)
 
 // or
 import {
@@ -95,7 +95,7 @@ Modern browsers and Internet Explorer 10+.
 ## Development
 Skip this part if you just want to use Element.
 
-For those who are interested in contributing to Element, please refer to our contributing guide ([中文](https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.zh-CN.md) | [English](https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.en-US.md) | [Español](https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.es.md) | [Français](https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.fr-FR.md)) to see how to run this project.
+For those who are interested in contributing to Cmstop, please refer to our contributing guide ([中文](https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.zh-CN.md) | [English](https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.en-US.md) | [Español](https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.es.md) | [Français](https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.fr-FR.md)) to see how to run this project.
 
 ## Changelog
 Detailed changes for each release are documented in the [release notes](https://github.com/ElemeFE/element/releases).

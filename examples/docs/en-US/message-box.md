@@ -277,7 +277,7 @@ Content of MessageBox can be centered.
 
 ### Global method
 
-If Element is fully imported, it will add the following global methods for Vue.prototype: `$msgbox`, `$alert`, `$confirm` and `$prompt`. So in a Vue instance you can call `MessageBox` like what we did in this page. The parameters are:
+If Cmstop is fully imported, it will add the following global methods for Vue.prototype: `$msgbox`, `$alert`, `$confirm` and `$prompt`. So in a Vue instance you can call `MessageBox` like what we did in this page. The parameters are:
 - `$msgbox(options)`
 - `$alert(message, title, options)` or `$alert(message, options)`
 - `$confirm(message, title, options)` or `$confirm(message, options)`

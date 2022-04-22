@@ -13,7 +13,7 @@ if [ "$TRAVIS_TAG" ]; then
   # build lib
   npm run dist
   cd temp_web
-  git clone https://$ROT_TOKEN@github.com/ElementUI/lib.git && cd lib
+  git clone https://$ROT_TOKEN@github.com/CmstopUI/lib.git && cd lib
   rm -rf `find * ! -name README.md`
   cp -rf ../../lib/** .
   git add -A .
@@ -24,7 +24,7 @@ if [ "$TRAVIS_TAG" ]; then
 
   # build theme-chalk
   cd temp_web
-  git clone https://$ROT_TOKEN@github.com/ElementUI/theme-chalk.git && cd theme-chalk
+  git clone https://$ROT_TOKEN@github.com/CmstopUI/theme-chalk.git && cd theme-chalk
   rm -rf *
   cp -rf ../../packages/theme-chalk/** .
   git add -A .
@@ -58,7 +58,7 @@ fi
 # build dev site
 npm run build:file && CI_ENV=/dev/$TRAVIS_BRANCH/ node_modules/.bin/cross-env NODE_ENV=production node_modules/.bin/webpack --config build/webpack.demo.js
 cd temp_web
-git clone https://$ROT_TOKEN@github.com/ElementUI/dev.git && cd dev
+git clone https://$ROT_TOKEN@github.com/CmstopUI/dev.git && cd dev
 mkdir $TRAVIS_BRANCH
 rm -rf $TRAVIS_BRANCH/**
 cp -rf ../../examples/element-ui/** $TRAVIS_BRANCH/
@@ -69,7 +69,7 @@ cd ../..
 
 # push dev theme-chalk
 cd temp_web
-git clone -b $TRAVIS_BRANCH https://$ROT_TOKEN@github.com/ElementUI/theme-chalk.git && cd theme-chalk
+git clone -b $TRAVIS_BRANCH https://$ROT_TOKEN@github.com/CmstopUI/theme-chalk.git && cd theme-chalk
 rm -rf *
 cp -rf ../../packages/theme-chalk/** .
 git add -A .

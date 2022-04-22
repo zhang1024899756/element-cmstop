@@ -1,20 +1,20 @@
 ## Inicio rápido
 
-Esta sección te guía en el proceso de usar Element con webpack en un proyecto.
+Esta sección te guía en el proceso de usar Cmstop con webpack en un proyecto.
 
 ### Use vue-cli@3
 
-Proporcionamos un [plugin de Element](https://github.com/ElementUI/vue-cli-plugin-element) para vue-cli@3, que puede utilizar para construir rápidamente un proyecto basado en Element.
+Proporcionamos un [plugin de Cmstop](https://github.com/CmstopUI/vue-cli-plugin-element) para vue-cli@3, que puede utilizar para construir rápidamente un proyecto basado en Element.
 
 ### Usa la plantilla de Kit de inicio
 
-Proveemos una plantilla general [project template](https://github.com/ElementUI/element-starter). Para los usuarios de Laravel, también tenemos [template](https://github.com/ElementUI/element-in-laravel-starter). Puedes descargarlas y agregarlas directamente también.
+Proveemos una plantilla general [project template](https://github.com/CmstopUI/element-starter). Para los usuarios de Laravel, también tenemos [template](https://github.com/CmstopUI/element-in-laravel-starter). Puedes descargarlas y agregarlas directamente también.
 
 Si prefiere no utilizarlas, lee las siguientes secciones de este documento.
 
-### Importando Element
+### Importando Cmstop
 
-Puede importar Element completamente o solamente importar lo que necesite. Comencemos importando todo.
+Puede importar Cmstop completamente o solamente importar lo que necesite. Comencemos importando todo.
 
 #### Importando todo
 
@@ -22,11 +22,11 @@ En main.js:
 
 ```javascript
 import Vue from 'vue';
-import ElementUI from 'element-ui';
+import CmstopUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import App from './App.vue';
 
-Vue.use(ElementUI);
+Vue.use(CmstopUI);
 
 new Vue({
   el: '#app',
@@ -34,7 +34,7 @@ new Vue({
 });
 ```
 
-El código anterior importa Element completamente. Nótese que el archivo CSS necesita ser incluido por separado.
+El código anterior importa Cmstop completamente. Nótese que el archivo CSS necesita ser incluido por separado.
 
 #### En demanda
 
@@ -254,19 +254,19 @@ Vue.prototype.$message = Message;
 
 ### Configuración global
 
-Cuando importa Element, puede definir un objeto global de configuración. Por ahora este elemento solo contiene dos propiedades: `size`, `zIndex`. `size` define el tamaño por defecto de todos los componentes.
+Cuando importa Cmstop, puede definir un objeto global de configuración. Por ahora este elemento solo contiene dos propiedades: `size`, `zIndex`. `size` define el tamaño por defecto de todos los componentes.
 
 La propiedad `zIndex` indica el z-index inicial (por defecto: 2000) para los modal:
 
-Importando Element completamente：
+Importando Cmstop completamente：
 
 ```js
 import Vue from 'vue';
-import Element from 'element-ui';
-Vue.use(Element, { size: 'small', zIndex: 3000 });
+import Cmstop from 'element-ui';
+Vue.use(Cmstop, { size: 'small', zIndex: 3000 });
 ```
 
-Importando Element parcialmente：
+Importando Cmstop parcialmente：
 
 ```js
 import Vue from 'vue';
@@ -280,7 +280,7 @@ Con la anterior configuración, el tamaño por defecto de todos los componentes 
 
 ### Empiece ya!
 
-Ahora ha incorporado Vue y Element a su proyecto y es el momento para comenzar a programar. Por favor, refiérase a la documentación de cada componente para aprender cómo usarlos.
+Ahora ha incorporado Vue y Cmstop a su proyecto y es el momento para comenzar a programar. Por favor, refiérase a la documentación de cada componente para aprender cómo usarlos.
 
 ### Use Nuxt.js
 

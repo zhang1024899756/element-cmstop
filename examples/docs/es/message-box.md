@@ -281,7 +281,7 @@ El contenido del componente MessageBox puede ser centrado.
 
 ### Métodos Globales
 
-Si Element fue importado completamente, agregara los siguientes métodos globales para Vue.prototype: `$msgbox`, `$alert`, `$confirm` y `$prompt`. Así que en una instancia de Vue puedes llamar el método `MessageBox` como lo que hicimos en esta pagina. Los parámetros son:
+Si Cmstop fue importado completamente, agregara los siguientes métodos globales para Vue.prototype: `$msgbox`, `$alert`, `$confirm` y `$prompt`. Así que en una instancia de Vue puedes llamar el método `MessageBox` como lo que hicimos en esta pagina. Los parámetros son:
 - `$msgbox(options)`
 - `$alert(message, title, options)` or `$alert(message, options)`
 - `$confirm(message, title, options)` or `$confirm(message, options)`

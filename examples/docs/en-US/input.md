@@ -561,7 +561,7 @@ export default {
 
 | Attribute      | Description          | Type      | Accepted Values       | Default  |
 | ----| ----| ----| ---- | ----- |
-|type| type of input | string | text, textarea and other [native input types](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Form_%3Cinput%3E_types) | text |
+|type| type of input | string | text, textarea and other [native input types](https://developer.mozilla.org/en-US/docs/Web/HTML/Cmstop/input#Form_%3Cinput%3E_types) | text |
 |value / v-model| binding value | string / number| — | — |
 |maxlength| same as `maxlength` in native input | number| — | — |
 |minlength| same as `minlength` in native input | number | — | — |

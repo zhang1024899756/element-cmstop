@@ -140,7 +140,7 @@ export default {
       const expected = isStart ? firstDayOfWeek : (firstDayOfWeek === 0 ? 6 : firstDayOfWeek - 1);
       const message = `${isStart ? 'start' : 'end'} of range should be ${weekDays[expected]}.`;
       if (date.getDay() !== expected) {
-        console.warn('[ElementCalendar]', message, 'Invalid range will be ignored.');
+        console.warn('[CmstopCalendar]', message, 'Invalid range will be ignored.');
         return false;
       }
       return true;
@@ -217,7 +217,7 @@ export default {
       if (range.length === 2) {
         const [start, end] = range;
         if (start > end) {
-          console.warn('[ElementCalendar]end time should be greater than start time');
+          console.warn('[CmstopCalendar]end time should be greater than start time');
           return [];
         }
         // start time and end time in one month
@@ -230,7 +230,7 @@ export default {
         let startDay = new Date(start.getFullYear(), start.getMonth() + 1, 1);
         const lastDay = this.toDate(startDay.getTime() - oneDay);
         if (!validateRangeInOneMonth(startDay, end)) {
-          console.warn('[ElementCalendar]start time and end time interval must not exceed two months');
+          console.warn('[CmstopCalendar]start time and end time interval must not exceed two months');
           return [];
         }
         // 第一个月的时间范围

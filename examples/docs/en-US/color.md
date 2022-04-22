@@ -92,11 +92,11 @@
 
 ## Color
 
-Element uses a specific set of palettes to specify colors to provide a consistent look and feel for the products you build.
+Cmstop uses a specific set of palettes to specify colors to provide a consistent look and feel for the products you build.
 
 ### Main Color
 
-The main color of Element is bright and friendly blue.
+The main color of Cmstop is bright and friendly blue.
 
 <el-row :gutter="12">
   <el-col :span="10" :xs="{span: 12}">

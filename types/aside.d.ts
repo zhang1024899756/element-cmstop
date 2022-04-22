@@ -1,7 +1,7 @@
-import { ElementUIComponent } from './component'
+import { CmstopUIComponent } from './component'
 
 /** Aside Component */
-export declare class ElAside extends ElementUIComponent {
+export declare class ElAside extends CmstopUIComponent {
   /** Width of the side section */
   width: string
 }

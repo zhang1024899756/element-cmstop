@@ -374,7 +374,7 @@ export default {
         const renderExpanded = this.table.renderExpanded;
         const tr = this.rowRender(row, $index);
         if (!renderExpanded) {
-          console.error('[Element Error]renderExpanded is required.');
+          console.error('[Cmstop Error]renderExpanded is required.');
           return tr;
         }
         // 使用二维数组，避免修改 $index

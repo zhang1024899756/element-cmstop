@@ -1,26 +1,26 @@
 {
   "zh-CN": {
-    "home": "Element - 网站快速成型工具",
-    "guide": "指南 | Element",
-    "component": "组件 | Element",
-    "resource": "资源 | Element"
+    "home": "Cmstop - 网站快速成型工具",
+    "guide": "指南 | Cmstop",
+    "component": "组件 | Cmstop",
+    "resource": "资源 | Cmstop"
   },
   "en-US": {
-    "home": "Element - A Desktop UI Toolkit for Web",
-    "guide": "Guide | Element",
-    "component": "Component | Element",
-    "resource": "Resource | Element"
+    "home": "Cmstop - A Desktop UI Toolkit for Web",
+    "guide": "Guide | Cmstop",
+    "component": "Component | Cmstop",
+    "resource": "Resource | Cmstop"
   },
   "es": {
-    "home": "Element - Un kit de interfaz de usuario para la web",
-    "guide": "Guía | Element",
-    "component": "Componentes | Element",
-    "resource": "Recursos | Element"
+    "home": "Cmstop - Un kit de interfaz de usuario para la web",
+    "guide": "Guía | Cmstop",
+    "component": "Componentes | Cmstop",
+    "resource": "Recursos | Cmstop"
   },
   "fr-FR": {
-    "home": "Element - Un kit de composants d'interface pour le web",
-    "guide": "Guide | Element",
-    "component": "Composants | Element",
-    "resource": "Ressources | Element"
+    "home": "Cmstop - Un kit de composants d'interface pour le web",
+    "guide": "Guide | Cmstop",
+    "component": "Composants | Cmstop",
+    "resource": "Ressources | Cmstop"
   }
 }

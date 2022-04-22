@@ -20,15 +20,15 @@ npm i element-ui -S
 ```
 
 :::tip
-我们建议使用 CDN 引入 Element 的用户在链接地址上锁定版本，以免将来 Element 升级时受到非兼容性更新的影响。锁定版本的方法请查看 [unpkg.com](https://unpkg.com)。
+我们建议使用 CDN 引入 Cmstop 的用户在链接地址上锁定版本，以免将来 Cmstop 升级时受到非兼容性更新的影响。锁定版本的方法请查看 [unpkg.com](https://unpkg.com)。
 :::
 
 ### Hello world
 
-通过 CDN 的方式我们可以很容易地使用 Element 写出一个 Hello world 页面。[在线演示](https://codepen.io/ziyoung/pen/rRKYpd)
+通过 CDN 的方式我们可以很容易地使用 Cmstop 写出一个 Hello world 页面。[在线演示](https://codepen.io/ziyoung/pen/rRKYpd)
 
-<iframe height="265" style="width: 100%;" scrolling="no" title="Element demo" src="//codepen.io/ziyoung/embed/rRKYpd/?height=265&theme-id=light&default-tab=html" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/ziyoung/pen/rRKYpd/'>Element demo</a> by hetech
+<iframe height="265" style="width: 100%;" scrolling="no" title="Cmstop demo" src="//codepen.io/ziyoung/embed/rRKYpd/?height=265&theme-id=light&default-tab=html" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/ziyoung/pen/rRKYpd/'>Cmstop demo</a> by hetech
   (<a href='https://codepen.io/ziyoung'>@ziyoung</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 

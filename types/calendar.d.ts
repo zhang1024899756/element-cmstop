@@ -1,9 +1,9 @@
-import { ElementUIComponent } from './component'
+import { CmstopUIComponent } from './component'
 
 export type DateType = Date | String | Number
 
 /** Calendar Component */
-export declare class ElCalendar extends ElementUIComponent {
+export declare class ElCalendar extends CmstopUIComponent {
   /** Binding value */
   value: DateType
 

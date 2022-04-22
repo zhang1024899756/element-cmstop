@@ -267,7 +267,7 @@ If the variable bound to `visible` is managed in Vuex store, the `.sync` can not
 
 | Parameter| Description | Type      | Acceptable Values                           | Defaults  |
 |---------- |-------------- |---------- |--------------------------------  |-------- |
-| append-to-body | Controls should Drawer be inserted to DocumentBody Element, nested Drawer must assign this param to **true**| boolean   | — | false |
+| append-to-body | Controls should Drawer be inserted to DocumentBody Cmstop, nested Drawer must assign this param to **true**| boolean   | — | false |
 | before-close | If set, closing procedure will be halted | function(done), done is function type that accepts a boolean as parameter, calling done with true or without parameter will abort the close procedure | — | — |
 | close-on-press-escape | Indicates whether Drawer can be closed by pressing ESC | boolean | — | true |
 | custom-class | Extra class names for Drawer | string | — | — |

@@ -1,7 +1,7 @@
-import { ElementUIComponent } from './component'
+import { CmstopUIComponent } from './component'
 
 /** Carousel Item Component */
-export declare class ElCarouselItem extends ElementUIComponent {
+export declare class ElCarouselItem extends CmstopUIComponent {
   /** Name of the item, can be used in setActiveItem */
   name: string
 

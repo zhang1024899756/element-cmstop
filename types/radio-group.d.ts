@@ -1,9 +1,9 @@
-import { ElementUIComponent } from './component'
+import { CmstopUIComponent } from './component'
 
 export type RadioGroupSize = 'large' | 'small'
 
 /** Radio Group Component */
-export declare class ElRadioGroup extends ElementUIComponent {
+export declare class ElRadioGroup extends CmstopUIComponent {
   /** The size of radio buttons */
   size: RadioGroupSize
 

@@ -86,10 +86,10 @@ describe('${ComponentName}', () => {
   },
   {
     filename: path.join('../../types', `${componentname}.d.ts`),
-    content: `import { ElementUIComponent } from './component'
+    content: `import { CmstopUIComponent } from './component'
 
 /** ${ComponentName} Component */
-export declare class El${ComponentName} extends ElementUIComponent {
+export declare class El${ComponentName} extends CmstopUIComponent {
 }`
   }
 ];

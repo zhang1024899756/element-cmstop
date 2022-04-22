@@ -1,4 +1,4 @@
-import { ElementUIComponent } from './component'
+import { CmstopUIComponent } from './component'
 import { VNode } from 'vue'
 
 interface ELEmptySlots {
@@ -16,7 +16,7 @@ interface ELEmptySlots {
 }
 
 /** Placeholder hints for empty states. */
-export declare class ElEmpty extends ElementUIComponent {
+export declare class ElEmpty extends CmstopUIComponent {
   /* image URL */
   image: string
   	

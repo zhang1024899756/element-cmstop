@@ -1,18 +1,18 @@
-# Element UI Contributing Guide
+# Cmstop UI Contributing Guide
 
-Hi! Thank you for choosing Element UI.
+Hi! Thank you for choosing Cmstop UI.
 
-Element UI is a Vue 2.0 based component library for developers, designers and product managers.
+Cmstop UI is a Vue 2.0 based component library for developers, designers and product managers.
 
 We are excited that you are interested in contributing to Element. Before submitting your contribution though, please make sure to take a moment and read through the following guidelines.
 
 ## Issue Guidelines
 
-- Issues are exclusively for bug reports, feature requests and design-related topics. Other questions may be closed directly. If any questions come up when you are using Element, please hit [Gitter](https://gitter.im/element-en/Lobby) for help.
+- Issues are exclusively for bug reports, feature requests and design-related topics. Other questions may be closed directly. If any questions come up when you are using Cmstop, please hit [Gitter](https://gitter.im/element-en/Lobby) for help.
 
 - Before submitting an issue, please check if similar problems have already been issued.
 
-- Please specify which version of `Element` and `Vue` you are using, and provide OS and browser information. [JSFiddle](https://jsfiddle.net/) is recommended to build a live demo so that your issue can be reproduced clearly.
+- Please specify which version of `Cmstop` and `Vue` you are using, and provide OS and browser information. [JSFiddle](https://jsfiddle.net/) is recommended to build a live demo so that your issue can be reproduced clearly.
 
 ## Pull Request Guidelines
 

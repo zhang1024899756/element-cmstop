@@ -1,10 +1,10 @@
-import { ElementUIComponent } from './component'
+import { CmstopUIComponent } from './component'
 
 export type MenuDisplayMode = 'horizontal' | 'vertical'
 export type MenuTheme = 'light' | 'dark'
 
 /** Menu that provides navigation for your website */
-export declare class ElMenu extends ElementUIComponent {
+export declare class ElMenu extends CmstopUIComponent {
   /** Menu display mode */
   mode: MenuDisplayMode
 

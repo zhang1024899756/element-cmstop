@@ -1,4 +1,4 @@
-import { ElementUIComponent, ElementUIComponentSize, ElementUIHorizontalAlignment } from './component'
+import { CmstopUIComponent, CmstopUIComponentSize, CmstopUIHorizontalAlignment } from './component'
 
 export interface TimeSelectOptions {
   /** Start time */
@@ -18,7 +18,7 @@ export interface TimeSelectOptions {
 }
 
 /** TimeSelect Component */
-export declare class ElTimeSelect extends ElementUIComponent {
+export declare class ElTimeSelect extends CmstopUIComponent {
   /** Whether DatePicker is read only */
   readonly: boolean
 
@@ -32,7 +32,7 @@ export declare class ElTimeSelect extends ElementUIComponent {
   clearable: boolean
 
   /** Size of Input */
-  size: ElementUIComponentSize
+  size: CmstopUIComponentSize
 
   /** Placeholder */
   placeholder: string
@@ -41,7 +41,7 @@ export declare class ElTimeSelect extends ElementUIComponent {
   value: string | Date
 
   /** Alignment */
-  align: ElementUIHorizontalAlignment
+  align: CmstopUIHorizontalAlignment
 
   /** Custom class name for TimePicker's dropdown */
   popperClass: string

@@ -20,16 +20,7 @@
         <a href="https://github.com/CmstopUI/awesome-element" class="footer-main-link" target="_blank">Awesome Cmstop</a>
       </div> -->
       <div class="footer-social">
-        <p class="footer-social-title">Design {{ version && version.slice(0, 3) }} Fullerene</p>
-        <!-- <el-popover
-          ref="weixin"
-          placement="top"
-          width="120"
-          popper-class="footer-popover"
-          trigger="hover">
-          <div class="footer-popover-title">{{ langConfig.eleme }} UED</div>
-          <img src="../assets/images/qrcode.png" alt="">
-        </el-popover> -->
+        <p class="footer-social-title">Design {{ version && version.slice(0, 3) }} Fullerene，Evolved from Element</p>
         <!-- <i class="doc-icon-weixin elementdoc" v-popover:weixin></i> -->
         <a href="https://github.com/elemefe" target="_blank">
           <i class="doc-icon-github elementdoc"></i>

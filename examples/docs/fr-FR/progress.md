@@ -74,7 +74,7 @@ Vous pouvez utiliser l'attribut `color` pour définir la couleur de la barre de 
     methods: {
       customColorMethod(percentage) {
         if (percentage < 30) {
-          return '#909399';
+          return '#86909C';
         } else if (percentage < 70) {
           return '#e6a23c';
         } else {

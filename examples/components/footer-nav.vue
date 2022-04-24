@@ -41,10 +41,10 @@
     transition: .3s;
     
     &:hover {
-      color: #409EFF;
+      color: #4886FF;
      
       & i {
-        color: #409EFF;
+        color: #4886FF;
       }
     }
   }
@@ -90,7 +90,10 @@
     methods: {
       setNav() {
         let nav = navConfig[this.lang];
-        this.nav = [nav[0]].concat(nav[3].children);
+        if (nav[3]) {
+          this.nav = [nav[0]].concat(nav[3].children);
+        }
+        if (!nav[4]) return;
         nav[4].groups.map(group => group.list).forEach(list => {
           this.nav = this.nav.concat(list);
         });

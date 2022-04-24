@@ -69,7 +69,7 @@ et -i [nom du fichier]
 Dans `element-variables.scss` vous trouverez toutes les variables utilisées pour le style d'Cmstop, définies en SCSS. Voici un snippet:
 
 ```css
-$--color-primary: #409EFF !default;
+$--color-primary: #4886FF !default;
 $--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default; /* 53a8ff */
 $--color-primary-light-2: mix($--color-white, $--color-primary, 20%) !default; /* 66b1ff */
 $--color-primary-light-3: mix($--color-white, $--color-primary, 30%) !default; /* 79bbff */
@@ -83,7 +83,7 @@ $--color-primary-light-9: mix($--color-white, $--color-primary, 90%) !default; /
 $--color-success: #67c23a !default;
 $--color-warning: #e6a23c !default;
 $--color-danger: #f56c6c !default;
-$--color-info: #909399 !default;
+$--color-info: #86909C !default;
 
 ...
 ```

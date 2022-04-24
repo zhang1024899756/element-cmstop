@@ -1,10 +1,6 @@
 {
   "zh-CN": [
     {
-      "name": "更新日志",
-      "path": "/changelog"
-    },
-    {
       "name": "开发指南",
       "children": [
         {
@@ -90,7 +86,7 @@
             },
             {
               "path": "/cascader",
-              "title": "Cascader 级联选择器"
+              "title": "Cascader 级联选择"
             },
             {
               "path": "/switch",
@@ -102,15 +98,15 @@
             },
             {
               "path": "/time-picker",
-              "title": "TimePicker 时间选择器"
+              "title": "TimePicker 时间选择"
             },
             {
               "path": "/date-picker",
-              "title": "DatePicker 日期选择器"
+              "title": "DatePicker 日期选择"
             },
             {
               "path": "/datetime-picker",
-              "title": "DateTimePicker 日期时间选择器"
+              "title": "DateTimePicker 日期时间选择"
             },
             {
               "path": "/upload",

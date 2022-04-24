@@ -41,7 +41,7 @@
         font-weight: bold;
 
         &.active {
-          color: #409EFF;
+          color: #4886FF;
         }
       }
 
@@ -59,7 +59,7 @@
 
           &:hover,
           &.active {
-            color: #409EFF;
+            color: #4886FF;
           }
         }
       }
@@ -101,6 +101,22 @@
       color: #999;
       line-height: 26px;
       margin-top: 15px;
+    }
+    .pure-menu-list {
+      .nav-item a {
+        min-width: 210px;
+        padding-left: 20px;
+        border-radius: 4px;
+        color: #1D2129;
+        &.active {
+          background-color: #4886FF !important;
+          color: white !important;
+        }
+        &:hover {
+          background-color: #F2F3F5;
+          color: #1D2129;
+        }
+      }
     }
 
     #code-sponsor-widget {

@@ -19,7 +19,7 @@
   export default {
     data() {
       return {
-        color1: '#409EFF',
+        color1: '#4886FF',
         color2: null
       }
     }
@@ -97,7 +97,7 @@
   export default {
     data() {
       return {
-        color: '#409EFF'
+        color: '#4886FF'
       }
     }
   };

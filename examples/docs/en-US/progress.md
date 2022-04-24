@@ -74,7 +74,7 @@ You can use `color` attr to set the progress bar color. it accepts color string,
     methods: {
       customColorMethod(percentage) {
         if (percentage < 30) {
-          return '#909399';
+          return '#86909C';
         } else if (percentage < 70) {
           return '#e6a23c';
         } else {

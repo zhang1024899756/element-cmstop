@@ -40,7 +40,7 @@ html, body {
 }
 
 a {
-  color: #409EFF;
+  color: #4886FF;
   text-decoration: none;
 }
 
@@ -84,7 +84,6 @@ button, input, select, textarea {
 }
 
 .page-container {
-  padding-top: 55px;
 
   h2 {
     font-size: 28px;
@@ -122,9 +121,9 @@ button, input, select, textarea {
 
   .tip {
     padding: 8px 16px;
-    background-color: #ECF8FF;
+    background-color: #E7F0FF;
     border-radius: 4px;
-    border-left: #50bfff 5px solid;
+    border-left: #4886FF 5px solid;
     margin: 20px 0;
 
     code {

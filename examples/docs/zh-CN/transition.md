@@ -35,7 +35,7 @@ Cmstop 内应用在部分组件的过渡动画，你也可以直接使用。在�
     width: 200px;
     height: 100px;
     border-radius: 4px;
-    background-color: #409EFF;
+    background-color: #4886FF;
     text-align: center;
     color: #fff;
     padding: 40px 20px;
@@ -84,7 +84,7 @@ Cmstop 内应用在部分组件的过渡动画，你也可以直接使用。在�
     width: 200px;
     height: 100px;
     border-radius: 4px;
-    background-color: #409EFF;
+    background-color: #4886FF;
     text-align: center;
     color: #fff;
     padding: 40px 20px;
@@ -131,7 +131,7 @@ Cmstop 内应用在部分组件的过渡动画，你也可以直接使用。在�
     width: 200px;
     height: 100px;
     border-radius: 4px;
-    background-color: #409EFF;
+    background-color: #4886FF;
     text-align: center;
     color: #fff;
     padding: 40px 20px;

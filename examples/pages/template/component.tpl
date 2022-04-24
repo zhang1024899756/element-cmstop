@@ -11,18 +11,14 @@
   .page-component {
     box-sizing: border-box;
     height: 100%;
-  
-    // &.page-container {
-    //   padding: 0;
-    // }
 
     .page-component__nav {
-      width: 240px;
       position: fixed;
       top: 0;
       bottom: 0;
-      margin-top: 80px;
+      margin-top: 64px;
       transition: padding-top .3s;
+      border-right: 1px solid #e5e6eb;
 
       > .el-scrollbar__wrap {
         height: 100%;
@@ -36,9 +32,9 @@
 
     .side-nav {
       height: 100%;
-      padding-top: 50px;
+      padding-top: 10px;
       padding-bottom: 50px;
-      padding-right: 0;
+      padding-right: 30px;
 
       & > ul {
         padding-bottom: 50px;
@@ -53,7 +49,8 @@
 
     .content {
       padding-top: 50px;
-
+      padding-left: 65px;
+      padding-right: 50px;
       > {
         h3 {
           margin: 55px 0 20px;
@@ -80,12 +77,12 @@
           th {
             text-align: left;
             white-space: nowrap;
-            color: #909399;
+            color: #86909C;
             font-weight: normal;
           }
 
           td {
-            color: #606266;
+            color: #4E5969;
           }
 
           th:first-child, td:first-child {

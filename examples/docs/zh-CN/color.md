@@ -20,21 +20,21 @@
     'borderExtraLight': '$--border-color-extra-light'
   };
   const original = {
-    primary: '#409EFF',
-    success: '#67C23A',
-    warning: '#E6A23C',
-    danger: '#F56C6C',
-    info: '#909399',
+    primary: '#4886FF',
+    success: '#00B42A',
+    warning: '#FF7D00',
+    danger: '#F53F3F',
+    info: '#86909C',
     white: '#FFFFFF',
     black: '#000000',
-    textPrimary: '#303133',
-    textRegular: '#606266',
-    textSecondary: '#909399',
-    textPlaceholder: '#C0C4CC',
+    textPrimary: '#1D2129',
+    textRegular: '#4E5969',
+    textSecondary: '#86909C',
+    textPlaceholder: '#C9CDD4',
     borderBase: '#DCDFE6',
     borderLight: '#E4E7ED',
     borderLighter: '#EBEEF5',
-    borderExtraLight: '#F2F6FC'
+    borderExtraLight: '#F2F3F5'
   }
   export default {
     created() {
@@ -101,7 +101,7 @@ Cmstop 主要品牌颜色是鲜艳、友好的蓝色。
 <el-row :gutter="12">
   <el-col :span="10" :xs="{span: 12}">
     <div class="demo-color-box" :style="{ background: primary }">Brand Color
-      <div class="value">#409EFF</div>
+      <div class="value">#4886FF</div>
       <div class="bg-color-sub" :style="{ background: tintColor(primary, 0.9) }">
         <div
           class="bg-blue-sub-item"
@@ -122,7 +122,7 @@ Cmstop 主要品牌颜色是鲜艳、友好的蓝色。
   <el-col :span="6" :xs="{span: 12}">
     <div class="demo-color-box"
     :style="{ background: success }"
-    >Success<div class="value">#67C23A</div>
+    >Success<div class="value">#00B42A</div>
       <div 
         class="bg-color-sub"
       >
@@ -139,7 +139,7 @@ Cmstop 主要品牌颜色是鲜艳、友好的蓝色。
   <el-col :span="6" :xs="{span: 12}">
     <div class="demo-color-box"
     :style="{ background: warning }"
-    >Warning<div class="value">#E6A23C</div>
+    >Warning<div class="value">#FF7D00</div>
       <div 
           class="bg-color-sub"
         >
@@ -156,7 +156,7 @@ Cmstop 主要品牌颜色是鲜艳、友好的蓝色。
   <el-col :span="6" :xs="{span: 12}">
     <div class="demo-color-box"
     :style="{ background: danger }"
-    >Danger<div class="value">#F56C6C</div>
+    >Danger<div class="value">#F53F3F</div>
       <div 
           class="bg-color-sub"
         >
@@ -173,7 +173,7 @@ Cmstop 主要品牌颜色是鲜艳、友好的蓝色。
   <el-col :span="6" :xs="{span: 12}">
     <div class="demo-color-box"
     :style="{ background: info }"
-    >Info<div class="value">#909399</div>
+    >Info<div class="value">#86909C</div>
       <div 
           class="bg-color-sub"
         >
@@ -235,7 +235,7 @@ Cmstop 主要品牌颜色是鲜艳、友好的蓝色。
       >基础黑色<div class="value">{{black}}</div></div>
       <div
       class="demo-color-box demo-color-box-other"
-      :style="{ background: white, color: '#303133', border: '1px solid #eee' }"
+      :style="{ background: white, color: '#1D2129', border: '1px solid #eee' }"
       >基础白色<div class="value">{{white}}</div></div>
       <div class="demo-color-box demo-color-box-other bg-transparent">透明<div class="value">Transparent</div>
       </div>

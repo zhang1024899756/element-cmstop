@@ -1,20 +1,6 @@
 <template>
   <div class="configurator-action">
       <div class="action-group">
-        <el-tooltip :content="getActionDisplayName('undo')">
-          <img 
-            src="../../assets/images/icon-undo.svg"
-            @click="onUndo"
-            :class="{ 'active': userConfigHistory.length > 0 }"
-          />
-        </el-tooltip>
-        <el-tooltip :content="getActionDisplayName('redo')">
-          <img 
-            src="../../assets/images/icon-redo.svg"
-            @click="onRedo"
-            :class="{ 'active': userConfigRedoHistory.length > 0 }"
-          />
-        </el-tooltip>
         <div class="button-group">
           <el-button 
             class="reset"
@@ -75,7 +61,7 @@
       .el-button {
         padding: 6px 15px;
         &.is-disabled {
-          color: #C0C4CC;
+          color: #C9CDD4;
           background-color: #fff;
           border-color: #EBEEF5;
         }
@@ -99,7 +85,7 @@
       border: none;
       font-size: 18px;
       padding-left: 0;
-      color: #606266;
+      color: #4E5969;
     }
   }
   .line {

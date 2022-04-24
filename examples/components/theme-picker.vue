@@ -25,7 +25,7 @@
   import Cmstop from 'main/index.js';
   const { version } = Cmstop;
 
-  const ORIGINAL_THEME = '#409EFF';
+  const ORIGINAL_THEME = '#4886FF';
   export default {
     data() {
       return {

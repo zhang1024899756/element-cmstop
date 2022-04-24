@@ -27,7 +27,7 @@
   overflow-y: auto;
 }
 .category-name {
-  color: #C0C4CC;
+  color: #C9CDD4;
   font-size: 18px;
   display: block;
   margin: 13px 0 3px 0;

@@ -4,7 +4,7 @@
   }
 
   #v3-banner {
-    background-color: #409EFF;
+    background-color: #4886FF;
     min-height: 30px;
     padding: 5px 60px;
     z-index: 19;
@@ -32,8 +32,10 @@
     .container {
       height: 100%;
       box-sizing: border-box;
-      // box-shadow: 0px 2px 8px rgba(32, 33, 36, 0.10);
       border-bottom: 1px solid rgb(229,230,235);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
 
     .nav-lang-spe {
@@ -116,11 +118,11 @@
           color: #888;
 
           &:hover {
-            color: #409EFF;
+            color: #4886FF;
           }
           &.active {
              font-weight: bold;
-             color: #409EFF;
+             color: #4886FF;
            }
         }
       }
@@ -145,7 +147,7 @@
           left: calc(50% - 15px);
           width: 30px;
           height: 4px;
-          background: #409EFF;
+          background: #4886FF;
         }
       }
     }
@@ -180,7 +182,7 @@
 
     .is-active {
       span, i {
-        color: #409EFF;
+        color: #4886FF;
       }
       i {
         transform: rotateZ(180deg) translateY(3px);
@@ -189,7 +191,7 @@
 
     &:hover {
       span, i {
-        color: #409EFF;
+        color: #4886FF;
       }
     }
   }
@@ -267,7 +269,8 @@
   <div class="headerWrapper">
     <header class="header" ref="header">
       <div class="container">
-        <h1>CmsTop Design</h1>
+        <!-- <h1>CmsTop Design</h1> -->
+        <img src="../assets/images/title-logo.svg" alt="logo">
         <!-- nav -->
         <ul class="nav">
           <li class="nav-item nav-algolia-search" v-show="isComponentPage">
@@ -429,10 +432,10 @@
       };
       xhr.open('GET', '/versions.json');
       xhr.send();
-      let primaryLast = '#409EFF';
+      let primaryLast = '#4886FF';
       bus.$on(ACTION_USER_CONFIG_UPDATE, (val) => {
         let primaryColor = val.global['$--color-primary'];
-        if (!primaryColor) primaryColor = '#409EFF';
+        if (!primaryColor) primaryColor = '#4886FF';
         const base64svg = 'data:image/svg+xml;base64,';
         const imgSet = document.querySelectorAll('h1 img');
         imgSet.forEach((img) => {

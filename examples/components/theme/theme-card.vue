@@ -23,7 +23,7 @@
       width: 40%;
       margin: 0 auto;
       text-align: center;
-      color: #606266;
+      color: #4E5969;
       img {
         display: block;
         margin: 0 auto;
@@ -125,7 +125,7 @@
     .title {
       font-weight: bold;
       font-size: 16px;
-      color: #303133;
+      color: #1D2129;
       padding: 0 12px;
       justify-content: space-between;
     }
@@ -133,7 +133,7 @@
       float: right;
       font-weight: normal;
       font-size: 14px;
-      color: #909399;
+      color: #86909C;
     }
     .more {
       font-size: 16px;
@@ -142,7 +142,7 @@
     .description {
       padding: 0 12px;
       font-size: 14px;
-      color: #606266;
+      color: #4E5969;
       margin-top: 10px;
     }
   }
@@ -168,7 +168,6 @@
     <template v-if="isUpload">
       <div class="upload" @click="uploadClick">
         <div class="upload-action">
-          <img src="../../assets/images/icon-upload.svg"/>
           <span>{{getActionDisplayName('upload-theme')}}</span>
         </div>
       </div>
@@ -226,7 +225,7 @@
                   <el-dropdown-item command="copy">{{getActionDisplayName('copy-theme')}}</el-dropdown-item>
                   <el-dropdown-item
                       command="delete"
-                      style="color: #F56C6C;"
+                      style="color: #F53F3F;"
                     >
                       {{getActionDisplayName('delete-theme')}}
                     </el-dropdown-item>
@@ -362,13 +361,13 @@ export default {
       return tintColor(this.mainColor, 0.8);
     },
     textPrimaryColor() {
-      return this.theme.global['$--color-text-primary'] || '#303133';
+      return this.theme.global['$--color-text-primary'] || '#1D2129';
     },
     borderBaseColor() {
       return this.theme.global['$--border-color-base'] || '#DCDFE6';
     },
     textSecondaryColor() {
-      return this.theme.global['$--color-text-secondary'] || '#909399';
+      return this.theme.global['$--color-text-secondary'] || '#86909C';
     },
     isOfficial() {
       return this.type === 'official';

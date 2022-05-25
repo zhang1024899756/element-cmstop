@@ -1,3 +1,13 @@
+SHELL := /bin/bash
+BRANCH=$(shell git rev-parse --abbrev-ref HEAD)
+IMAGE_TAG=git-$(subst /,-,$(BRANCH))-$(shell git describe --always --dirty)
+# 自动获取项目名称
+REPO_NAME=$(shell basename $(shell git rev-parse --show-toplevel))
+# 外网仓库地址
+IAMGE_REPO=d.autops.xyz
+# 内网仓库地址
+LOCAL_IAMGE_REPO=d.local.autops.xyz
+
 .PHONY: dist test
 default: help
 
@@ -27,7 +37,10 @@ dist: install
 	npm run dist
 
 deploy:
-	@npm run deploy
+	npm run deploy:build
+	docker build -t ${LOCAL_IAMGE_REPO}/${REPO_NAME}:${IMAGE_TAG} .
+	docker push ${LOCAL_IAMGE_REPO}/${REPO_NAME}:${IMAGE_TAG}
+	docker rmi ${LOCAL_IAMGE_REPO}/${REPO_NAME}:${IMAGE_TAG}
 
 pub:
 	npm run pub
